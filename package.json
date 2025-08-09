@@ -1,0 +1,32 @@
+{
+  "name": "better-notion-web-clipper",
+  "version": "1.0.0",
+  "description": "Chrome extension built with Vite + Svelte",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173",
+    "typecheck": "pnpm -s run typecheck:app && pnpm -s run typecheck:node",
+    "typecheck:app": "svelte-check --tsconfig tsconfig.app.json",
+    "typecheck:node": "tsc -p tsconfig.node.json --noEmit"
+  },
+  "keywords": [
+    "chrome-extension",
+    "vite",
+    "svelte",
+    "mv3"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.9.0",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@types/chrome": "^0.1.3",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.3.1",
+    "typescript": "^5.9.2",
+    "vite": "^5.3.0",
+    "@types/node": "24.2.1"
+  }
+}

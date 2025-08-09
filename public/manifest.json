@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Better Notion Web Clipper (Demo)",
+  "version": "1.0.0",
+  "description": "A minimal Chrome extension built with Vite + Svelte. Shows the current tab URL in the popup.",
+  "action": {
+    "default_title": "Better Notion Web Clipper",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

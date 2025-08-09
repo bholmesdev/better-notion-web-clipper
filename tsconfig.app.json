@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM"],
+    "types": ["vite/client", "svelte", "chrome"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.svelte",
+    "popup.html",
+    "svelte.d.ts"
+  ]
+}
+
